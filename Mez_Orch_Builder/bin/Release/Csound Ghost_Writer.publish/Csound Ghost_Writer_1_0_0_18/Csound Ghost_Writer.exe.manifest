@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asmv1:assemblyIdentity name="Csound Ghost_Writer.exe" version="1.0.0.18" publicKeyToken="7e69b13fc0d3d994" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Angry Boo.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Csound Ghost_Writer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Csound Ghost_Writer.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Csound Ghost_Writer.exe" size="5689344">
+      <assemblyIdentity name="Csound Ghost_Writer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>WQQJ6xxmilY9IRl3f9LH5vFc0qU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.SpeechLib.dll" size="176128">
+      <assemblyIdentity name="Interop.SpeechLib" version="5.3.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>YqWLIKy5h2Y8o/SSLrAGF/lP7Lk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Angry Boo.ico" size="161862">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>SSLy+1lufM9/fYoEJSxA8juegDE=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=mezcel-PC\mezcel" issuerKeyHash="ab0e0293c374fe89afa95dc0da40b4d866f39e54" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>wrzA4s8aR6x/AFIlJtYfFgUzJfM=</DigestValue></Reference></SignedInfo><SignatureValue>pASiYkCoAcZOxJHuXTrbPxKd+yLIMB/OFLgXSYVqzl0mLxp7CVBvvYTgHMfBw4y4ui2b/UzT6kMbGiZqwaIqwnNCI9LmDNMY5AMYf2vKllC1Pc8q9zQ4O8wV8Jysg+m3g9dOo85Lqf4T69ybRW37ib2Ymmj/qEcNKQ7Tfbjk9OI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>r41VNxV5qzh1SSECy/c3GefN+KYt5jBR84kTsOW1BssPsW0lG39X5gb885TSaAiCdxXD2/xj5EMVhnejAJKjnCULwrEqGY3X4t3A77Tq4pVWgywgd5iLBkuxwE/K7EFGQV8M3JkO31XL/gKjoRcwg1PqzzOKV8qvftqUF5YvYmU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="f3253305161fd6262552007fac471acfe2c0bcc2" Description="" Url=""><as:assemblyIdentity name="Csound Ghost_Writer.exe" version="1.0.0.18" publicKeyToken="7e69b13fc0d3d994" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=mezcel-PC\mezcel</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>59yhFQslm3oQFg9MuYdhZT9jO04=</DigestValue></Reference></SignedInfo><SignatureValue>O1OHB1j6Ow/L1AgKOqHq/sC21bdekGHLKIIQVBD7AvX7sVxIPILVksAIipJY36JTS5OpC8YwCpNrmItt0z+RoJ0895lJ3vPFF5Zjgr2vpDjWOdT9P6E33eMatPOw2BMwXlVA8Q8tGs2FNXNxBXbITWIoj42LOERIAa8m0wLSVeE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>r41VNxV5qzh1SSECy/c3GefN+KYt5jBR84kTsOW1BssPsW0lG39X5gb885TSaAiCdxXD2/xj5EMVhnejAJKjnCULwrEqGY3X4t3A77Tq4pVWgywgd5iLBkuxwE/K7EFGQV8M3JkO31XL/gKjoRcwg1PqzzOKV8qvftqUF5YvYmU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQIPSnV1bSsZlHyPJ+NltkbDANBgkqhkiG9w0BAQUFADArMSkwJwYDVQQDHiAAbQBlAHoAYwBlAGwALQBQAEMAXABtAGUAegBjAGUAbDAeFw0wNzA1MjEwOTIxMDdaFw0wODA1MjAxNTIxMDdaMCsxKTAnBgNVBAMeIABtAGUAegBjAGUAbAAtAFAAQwBcAG0AZQB6AGMAZQBsMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCvjVU3FXmrOHVJIQLL9zcZ5834pi3mMFHziROw5bUGyw+xbSUbf1fmBvzzlNJoCIJ3FcPb/GPkQxWGd6MAkqOcJQvCsSoZjdfi3cDvtOrilVaDLCB3mIsGS7HAT8rsQUZBXwzcmQ7fVcv+AqOhFzCDU+rPM4pXyq9+2pQXli9iZQIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAG8lotpFBlQ8gMJMN1pfvJVjCVHhx8A3EkxxyqARgzwo0+q3D8Ij66pkmBT9zEtvYtQUrfBMo2JCCW9H2p9/7N8S/Z4+bx1t9U3vHxhbP21+aAqWfsm5tcygGdbGV4nOCaug3Op0eilF7r3aIrZDNfI1WOOFK2z4AREIDXGmni2F</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

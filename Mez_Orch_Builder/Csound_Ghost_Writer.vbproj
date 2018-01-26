@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F4F99472-4B24-4640-B772-C42C2A581B6C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Csound_Ghost_Writer.My.MyApplication</StartupObject>
+    <RootNamespace>Csound_Ghost_Writer</RootNamespace>
+    <AssemblyName>Csound Ghost_Writer</AssemblyName>
+    <MyType>WindowsForms</MyType>
+    <ManifestCertificateThumbprint>04C03B66B055981B801B5B5EDF97EF542BB77520</ManifestCertificateThumbprint>
+    <ManifestKeyFile>Mez_Orch_Builder_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>true</SignManifests>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ApplicationIcon>Angry Boo.ico</ApplicationIcon>
+    <PublishUrl>C:\Users\Mezcel\Desktop\Csound_Ghost_Writer%28Beta3%29_EXE\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Csound Ghost_Writer.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Csound Ghost_Writer.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="bufferSettings.Designer.vb">
+      <DependentUpon>bufferSettings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="bufferSettings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Data.vb" />
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAbout.Designer.vb">
+      <DependentUpon>frmAbout.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAbout.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmcsoundBackground.Designer.vb">
+      <DependentUpon>frmcsoundBackground.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmcsoundBackground.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFstatement.Designer.vb">
+      <DependentUpon>frmFstatement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmFstatement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGWdetails.Designer.vb">
+      <DependentUpon>frmGWdetails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmGWdetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLoop.Designer.vb">
+      <DependentUpon>frmLoop.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLoop.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMainMixer.Designer.vb">
+      <DependentUpon>frmMainMixer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMainMixer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Global_Functions.vb" />
+    <Compile Include="GraphicsControl.vb" />
+    <Compile Include="InstanceObjects.vb" />
+    <Compile Include="LFO_controlls.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="text2speech.Designer.vb">
+      <DependentUpon>text2speech.vb</DependentUpon>
+    </Compile>
+    <Compile Include="text2speech.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Write.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="bufferSettings.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>bufferSettings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAbout.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAbout.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmcsoundBackground.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmcsoundBackground.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFstatement.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmFstatement.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGWdetails.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmGWdetails.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLoop.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmLoop.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMainMixer.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMainMixer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="text2speech.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>text2speech.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Mez_Orch_Builder_TemporaryKey.pfx" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bio2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Angry Boo.ico" />
+    <None Include="Resources\CsoundArt_1_2%28ghostWriter%29.jpg" />
+    <None Include="Resources\whitecamo.jpg" />
+    <None Include="Resources\raster_300.gif" />
+    <None Include="Resources\t_1284.jpg" />
+    <None Include="Resources\lightswitch%28on%29.gif" />
+    <None Include="Resources\lightswitch%28off%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="SpeechLib">
+      <Guid>{C866CA3A-32F7-11D2-9602-00C04F8EE628}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

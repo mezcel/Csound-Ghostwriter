@@ -1,0 +1,22 @@
+===============================================
+Array ***** ( wave      comp ) ***** Array_Value
+===============================================
+wave ( 0, 0  ) ***** gjh ***** pvsosc ***** 2000
+wave ( 0, 1  ) ***** gjh ***** pvsosc ***** 888
+wave ( 0, 2  ) ***** gjh ***** pvsosc ***** 1
+ 
+ADSR ******** WaveGen0
+attack = 0.1
+decay = 0.9
+sustain = 0.9
+release = 0.7
+ 
+HP Filter ******** WaveGen0
+ Cuttoff Hz = 219
+ Rez Hz = 219
+LP Filter ******** WaveGen0
+ Cuttoff Hz =  2304
+ Rez Hz = 2304
+ 
+==========================================
+ C:\Users\mezcel\Documents\Ghost_Writer\Mez_Orch_Builder_v12\Mez_Orch_Builder\bin\Debug\GhostWriter.csd

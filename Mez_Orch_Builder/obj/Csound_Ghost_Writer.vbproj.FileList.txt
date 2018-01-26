@@ -1,0 +1,50 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Csound_Ghost_Writer.vbproj.GenerateResource.Cache
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\Csound_Ghost_Writer.vbproj.GenerateResource.Cache
+bin\Debug\Csound Ghost_Writer.exe.manifest
+bin\Debug\Csound Ghost_Writer.application
+bin\Debug\Csound Ghost_Writer.exe
+bin\Debug\Csound Ghost_Writer.pdb
+bin\Debug\Csound Ghost_Writer.xml
+obj\Debug\Csound_Ghost_Writer.Form1.resources
+obj\Debug\Csound_Ghost_Writer.frmAbout.resources
+obj\Debug\Csound_Ghost_Writer.frmFstatement.resources
+obj\Debug\Csound_Ghost_Writer.frmLoop.resources
+obj\Debug\Csound_Ghost_Writer.Resources.resources
+obj\Debug\Csound Ghost_Writer.exe.manifest
+obj\Debug\Csound Ghost_Writer.application
+obj\Debug\Csound Ghost_Writer.exe
+obj\Debug\Csound Ghost_Writer.xml
+obj\Debug\Csound Ghost_Writer.pdb
+obj\Debug\Csound_Ghost_Writer.frmcsoundBackground.resources
+obj\Debug\Csound_Ghost_Writer.frmGWdetails.resources
+bin\Release\Csound Ghost_Writer.exe.manifest
+bin\Release\Csound Ghost_Writer.application
+bin\Release\Csound Ghost_Writer.exe
+bin\Release\Csound Ghost_Writer.pdb
+bin\Release\Csound Ghost_Writer.xml
+obj\Release\Csound_Ghost_Writer.Form1.resources
+obj\Release\Csound_Ghost_Writer.frmAbout.resources
+obj\Release\Csound_Ghost_Writer.frmcsoundBackground.resources
+obj\Release\Csound_Ghost_Writer.frmFstatement.resources
+obj\Release\Csound_Ghost_Writer.frmGWdetails.resources
+obj\Release\Csound_Ghost_Writer.frmLoop.resources
+obj\Release\Csound_Ghost_Writer.Resources.resources
+obj\Release\Csound Ghost_Writer.exe.manifest
+obj\Release\Csound Ghost_Writer.application
+obj\Release\Csound Ghost_Writer.exe
+obj\Release\Csound Ghost_Writer.xml
+obj\Release\Csound Ghost_Writer.pdb
+obj\Debug\Csound_Ghost_Writer.frmMainMixer.resources
+obj\Release\Csound_Ghost_Writer.frmMainMixer.resources
+bin\Debug\Interop.SpeechLib.dll
+obj\Debug\Interop.SpeechLib.dll
+obj\Debug\Csound_Ghost_Writer.vbproj.ResolveComReference.cache
+bin\Release\Interop.SpeechLib.dll
+obj\Release\Interop.SpeechLib.dll
+obj\Release\Csound_Ghost_Writer.vbproj.ResolveComReference.cache
+obj\Debug\Csound_Ghost_Writer.bufferSettings.resources
+obj\Debug\Csound_Ghost_Writer.text2speech.resources
+obj\Release\Csound_Ghost_Writer.bufferSettings.resources
+obj\Release\Csound_Ghost_Writer.text2speech.resources
